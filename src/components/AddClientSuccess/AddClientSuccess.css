@@ -1,0 +1,57 @@
+.order-success-notification{
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 12px;
+    margin-top: 25px;
+}
+
+.box-container:first-child{
+    margin-left: 0px !important;
+    
+}
+
+.client-master-btn{
+    /* background-color: ; */
+    margin-right: 8px;
+    color: #153AC7;
+    background-color: #F8F9FD;
+    border: none;
+    padding: 9px 12px;
+    font-weight: 700;
+}
+
+.add-more-client-btn{
+    background-color: #153AC7;
+    color: white;
+    border: none;
+    padding: 9px 12px;
+    margin-left: 8px;
+    border-radius: 8px;
+    font-weight: 700;
+}
+.last_child_breadcome{
+    color: #686687;
+
+}
+
+@media only screen and (max-device-width: 767px) {
+   .nameclient-success{
+    display: flex;
+    flex-direction: column;
+   }
+   .client-button-mobile{
+    margin-top: -10px;
+   }
+ .row .box-container{
+   display: flex ;
+    justify-content: center ;
+ }
+
+ .container-view{
+    margin-top: -200%;
+}
+  }
+

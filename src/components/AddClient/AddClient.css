@@ -1,0 +1,15 @@
+
+.paddingClass{
+    padding: 10px !important;
+}
+
+@media only screen and (max-device-width: 767px) {
+    .row-container-mobile{
+        min-height: 0vh;
+    
+    }
+
+    .container-view{
+        margin-top: -200%;
+    }
+  }

@@ -1,0 +1,30 @@
+.form_container {
+  background-color: #FFFFFF;
+  ;
+}
+
+.Payment_mode_title {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  /* Secondary ISS Dark Blue/100% */
+
+  color: #030037;
+
+
+}
+
+@media only screen and (max-device-width: 767px) {
+  .button-mobile{
+    display: flex !important;
+    justify-content: center !important;
+  
+  }
+}

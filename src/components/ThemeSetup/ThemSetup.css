@@ -1,0 +1,242 @@
+.Input_hex {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+
+    /* Secondary ISS Dark Blue/50% */
+
+    color: #686687;
+
+}
+
+.frame_56 {
+    background-color: #FFFFFF;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+
+}
+
+.frame_57 {
+    display: flex;
+    flex-direction: column;
+}
+
+.frame_68_title {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    /* Secondary ISS Dark Blue/100% */
+
+    color: #030037;
+}
+
+.frame_68_subtitle {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.0025em;
+
+    /* Secondary ISS Dark Blue/50% */
+
+    color: #686687;
+}
+
+
+
+.outer_img {
+    width: 90px;
+    height: 65px;
+}
+
+.frame_429_outer {
+    background-color:
+        #F5F5F5;
+    width: 120px;
+    height: 84px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+
+}
+
+.frame_429_inner {
+    background-color: #153AC7;
+    width: 32px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.frame_429 {
+    display: flex;
+    gap: 30px;
+
+}
+
+.frame_110 {
+    margin-top: 20px;
+}
+
+.alignment_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: small;
+}
+
+.button_save {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    /* justify-content: center; */
+}
+
+
+.save_button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+    /* gap: 12px; */
+    cursor: pointer;
+    /* width: 306px; */
+    height: 40px;
+
+    /* Primary Persian Blue/100% */
+
+    background: #153AC7;
+    border-radius: 8px;
+
+}
+
+
+.save_button button {
+    cursor: pointer;
+    outline: none;
+    border: none;
+    width: 100%;
+    background-color: transparent;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+
+
+.reset_button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* padding: 12px 16px; */
+    /* gap: 12px; */
+
+    width: 94px;
+    height: 40px;
+
+    border-radius: 8px;
+}
+
+.reset_button button {
+
+    /* width: 38px;
+    height: 20px; */
+
+    /* Typeface/Nunito Sans/Button */
+
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    background-color: transparent;
+    border: none;
+    letter-spacing: 0.01em;
+
+    /* Grey/Dark/100% */
+
+    color: #B8BABC;
+
+}
+
+.reset_button img {
+    width: 12px;
+    height: 12px;
+
+    color: #B8BABC;
+}
+
+.frame_436 p {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    /* Secondary ISS Dark Blue/100% */
+
+    color: #030037;
+
+}
+
+.setup_name {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    /* identical to box height, or 24px */
+
+    letter-spacing: 0.0025em;
+
+    /* Secondary ISS Dark Blue/100% */
+
+    color: #030037;
+
+}
+
+
+@media only screen and (max-device-width: 767px) {
+
+    /* .frame_429{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } */
+    .frame_429_outer {
+        width: 90px !important;
+    }
+}
