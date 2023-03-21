@@ -30,9 +30,9 @@ const LoginPage = () => {
 
     const userLogin = async () => {
         const loginData = {
-             email:"eve.holt@reqres.in",
-             password:"5cityslicka"
-            // email, password
+//              email:"eve.holt@reqres.in",
+//              password:"5cityslicka"
+            email, password
         }
         console.log(email, password);
         try {
